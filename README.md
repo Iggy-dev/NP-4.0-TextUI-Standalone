@@ -19,4 +19,4 @@ exports['TextUI']:Hide()
 
 # Previews
 
-![Preview_1]()
+![Preview_1](https://forum.cfx.re/uploads/default/original/4X/1/a/4/1a49f274b76f0c523c4b129d9b87acb81b4b928e.png)
