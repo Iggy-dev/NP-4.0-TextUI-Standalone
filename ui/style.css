@@ -32,7 +32,7 @@ body {
     background-color: rgb(35, 238, 203); /* Color de la línea */
     position: absolute; /* Establece la posición absoluta */
     bottom: 0; /* Posiciona la línea en la parte inferior */
-    left: 3.5%; /* Centra horizontalmente la línea en el contenedor */
+    left: 5.5%; /* Centra horizontalmente la línea en el contenedor */
 }
 
 .texto {
