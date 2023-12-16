@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+body{
+    display: none;
+}
+
+.textui{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+}
+.tecla{
+    background-color: rgb(15,48,48);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid rgb(20,77,69);
+}
+
+.linea {
+    width: 8%; /* Ancho de la línea */
+    height: 2px; /* Grosor de la línea */
+    background-color: rgb(35, 238, 203); /* Color de la línea */
+    position: absolute; /* Establece la posición absoluta */
+    bottom: 0; /* Posiciona la línea en la parte inferior */
+    left: 5%; /* Centra horizontalmente la línea en el contenedor */
+  }
+  
+  
+  
+
+
+.texto{
+    background: rgb(13,121,101);
+    background: linear-gradient(0deg, rgba(13,121,101,1) 0%, rgba(0,0,0,0.17923666048450626) 80%, rgba(0,0,0,0) 100%);
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 3px;
+    animation-name: show;
+    animation-duration: 0.2s;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+@keyframes show {
+    from {clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);}
+    to {clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);}
+}
