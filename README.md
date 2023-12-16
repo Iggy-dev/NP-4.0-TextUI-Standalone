@@ -5,7 +5,6 @@
 <h3>Show Text UI</h3>
 
 ```lua
----usage: message/type
 exports['TextUI']:Show('E', 'Example Text')
 exports['TextUI']:Show('G', 'Example Text')
 exports['TextUI']:Show('H', 'Example Text')
