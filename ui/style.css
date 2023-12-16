@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
-
-body{
+body {
     display: none;
 }
 
-.textui{
+.textui {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
     display: flex;
@@ -17,7 +16,8 @@ body{
     transform: translate(-50%,-50%);
     font-size: 25px;
 }
-.tecla{
+
+.tecla {
     background-color: rgb(15,48,48);
     padding-left: 10px;
     padding-right: 10px;
@@ -32,14 +32,10 @@ body{
     background-color: rgb(35, 238, 203); /* Color de la línea */
     position: absolute; /* Establece la posición absoluta */
     bottom: 0; /* Posiciona la línea en la parte inferior */
-    left: 5%; /* Centra horizontalmente la línea en el contenedor */
-  }
-  
-  
-  
+    left: 3.5%; /* Centra horizontalmente la línea en el contenedor */
+}
 
-
-.texto{
+.texto {
     background: rgb(13,121,101);
     background: linear-gradient(0deg, rgba(13,121,101,1) 0%, rgba(0,0,0,0.17923666048450626) 80%, rgba(0,0,0,0) 100%);
     padding-left: 12px;
