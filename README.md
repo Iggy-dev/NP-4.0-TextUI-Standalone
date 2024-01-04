@@ -18,7 +18,7 @@ exports['TextUI']:Hide()
 
 # SNIPPPETS
 
-QB-Core
+<h3>QB-Core</h3>
 
 Go to qb-core/client/drawtext.lua and replace
 
@@ -44,7 +44,7 @@ RegisterNetEvent('qb-core:client:HideText', function()
 end)
 ```
 
-ESX
+<h3>ESX</h3>
 
 Go to es_extended/client/functions.lua and replace
 
